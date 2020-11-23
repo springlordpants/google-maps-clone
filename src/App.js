@@ -20,9 +20,7 @@ export default function App() {
         onViewportChange={(viewport) => {
           setViewport(viewport)
         }}
-      >
-        Markers here
-      </ReactMapGL>
+      ></ReactMapGL>
     </div>
   )
 }
